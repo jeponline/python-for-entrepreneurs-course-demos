@@ -1,6 +1,6 @@
 body {
-    color: white;
-    background-color: red;
+    color: black;
+    background-color: white;
 }
 
 .main_content {
@@ -17,6 +17,8 @@ body {
 .nav a {
     color: white;
     margin: 10px;
+    padding: 10px;
+    border-color: white;
 }
 
 .nav a:visited, .nav a:active {
