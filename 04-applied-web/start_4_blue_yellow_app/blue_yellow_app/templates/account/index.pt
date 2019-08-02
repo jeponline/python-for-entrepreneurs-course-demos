@@ -1,6 +1,5 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="main-content">
-        <h1>About page</h1>
-        <div>The value from the controller is ${value}.</div>
+        <h1>Your account</h1>
     </div>
 </div>
