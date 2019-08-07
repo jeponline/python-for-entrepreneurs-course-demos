@@ -1,9 +1,6 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="main_content">
-        <br>
-        <br>
-        <br>
-        <br>
+
 
             <!-- Header -->
     <a name="about"></a>
@@ -138,6 +135,6 @@
     </div>
 
     <div metal:fill-slot="addtional_css">
-        <!-- Added by index.pt -->
+        <link href="/static/css/home.css?cacheId=${view.build_cache_id('/static/css/home.css')}" rel="stylesheet">
     </div>
 </div>
