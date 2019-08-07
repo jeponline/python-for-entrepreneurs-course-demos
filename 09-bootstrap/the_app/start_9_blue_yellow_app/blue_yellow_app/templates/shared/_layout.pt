@@ -10,7 +10,7 @@
     <link rel="shortcut icon"
           href="/static/img/fav.png?cacheId=${view.build_cache_id('/static/img/fav.png')}">
 
-    <title>Blue Yellow Rock Band</title>
+    <title>Blue Yellow Rockets</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/static/bower_components/bootstrap-css/css/bootstrap.min.css?cacheId=${view.build_cache_id('/static/bower_components/bootstrap-css/css/bootstrap.min.css')}'"
