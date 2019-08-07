@@ -33,10 +33,10 @@
             <a href="/account/register">Register</a>
         </div>
 
-        <a href="/">home</a>
-        <a href="/albums">albums</a>
-        <a href="/home/contact">contact</a>
-        <a href="/home/about">about</a>
+        <a href="/">home</a> |
+        <a href="/albums">albums</a> |
+        <a href="/home/contact">contact</a> |
+        <a href="/home/about">about</a> |
     </div>
 
     <div class="main_content">
