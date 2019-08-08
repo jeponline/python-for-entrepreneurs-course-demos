@@ -82,32 +82,64 @@
     <div metal:define-slot="main_content"></div>
 </div>
 
-        <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="/home/about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-4 mission">
+                <div class="section-header">Our story</div>
+                This site is not a real site. It's a just a real live demo
+                from my online video course
+                <a href="https://training.talkpython.fm/courses/details/python-for-entrepreneurs-with-html-css-pyramid-sqlalchemy-bootstrap-stripe-and-mailchimp">
+                    Python for Entrepreneurs</a>.<br>
+                <br>
+                Blue / Yellow Rockets was built
+                during the class to show how
+                to create a website in Python, but also all the business related features
+                no one sees (mailing lists, credit card payments, email, etc).
+
             </div>
+            <div class="col-md-3">
+                <div class="social">
+                    <div class="section-header">Connect with us</div>
+                    <div><a href="mailto:contact@talkpython.fm" target="_blank"
+                    ><i class="fa fa-envelope"></i> email</a>
+                    </div>
+                    <div>
+                        <a href="https://training.talkpython.fm/courses/details/python-for-entrepreneurs-with-html-css-pyramid-sqlalchemy-bootstrap-stripe-and-mailchimp"
+                           target="_blank"><i class="fa fa-file-video-o"></i> course</a></div>
+                    <div><a href="https://github.com/mikeckennedy/python-for-entrepreneurs-course-demos"
+                            target="_blank"><i class="fa fa-github"></i> github</a></div>
+                    <div><a href="https://twitter.com/TalkPython" target="_blank"><i class="fa fa-twitter"></i>
+                        twitter</a>
+                    </div>
+                    <div><a href="/home/image_credits" ><i
+                            class="fa fa-picture-o" aria-hidden="true"></i> credits</a></div>
+                    <div><a href="https://www.youtube.com/channel/UCKPSmMfDsXTKrCZApukcJ7A" target="_blank"><i
+                            class="fa fa-youtube"></i> youtube</a></div>
+                    <div><a href="https://talkpython.fm/" target="_blank"><i class="fa fa-microphone"></i>
+                        podcast</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
         </div>
-    </footer>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <div class="copyright">
+                    Copyright &copy; 2016 <a href="https://training.talkpython.fm/"
+                                             target="_blank">Talk Python Training</a>. All rights reserved.
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</footer>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

@@ -1,6 +1,6 @@
 body {
-    color: black;
-    background-color: white;
+    color: #fafafa;
+    background-color: #222222;
 }
 
 .main_content {
@@ -67,4 +67,44 @@ body {
 
 .blue-foreground {
     color: #326aa5;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer {
+    color: #555;
+}
+
+footer .row {
+    padding: 0px;
+    padding-bottom: 1em;
+    margin: 0px;
+}
+
+footer a, footer .section-header {
+    color: #999;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .mission {
+    text-align: left;
+}
+
+footer .social {
+    /*text-align: left;*/
+    line-height: 1.75em;
+}
+
+footer .social > div > a {
+    width: 75px;
+    text-align: left;
+    display: inline-block;
 }
