@@ -14,7 +14,8 @@ requires = [
     'pyramid_debugtoolbar',
     'pyramid_handlers',
     'waitress',
-    ]
+    'sqlalchemy'
+]
 
 tests_require = [
     'WebTest >= 1.3.1',  # py3 compatibility

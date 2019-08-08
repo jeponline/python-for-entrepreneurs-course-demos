@@ -69,10 +69,10 @@
                     <a href="/home/contact">contact</a>
                 </li>
                 <li>
-                    <a href="account/signin">sign in</a>
+                    <a href="/account/signin">sign in</a>
                 </li>
                 <li>
-                    <a href="account/register">register</a>
+                    <a href="/account/register">register</a>
                 </li>
             </ul>
         </div>
