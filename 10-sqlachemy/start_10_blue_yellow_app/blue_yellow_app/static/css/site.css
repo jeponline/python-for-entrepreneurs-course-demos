@@ -33,7 +33,7 @@ body {
 
 /* ********** ALBUM LIST ********* */
 .album-in-list {
-
+    align-content: center;
 }
 
 .album-in-list img {
