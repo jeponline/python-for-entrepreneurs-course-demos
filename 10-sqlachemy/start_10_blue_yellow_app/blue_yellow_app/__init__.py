@@ -19,8 +19,8 @@ def init_db(config):
 
 def init_mailing_list(config):
     settings = config.get_settings()
-    mailchimp_api = settings.get('mailchimp_api')
-    mailchimp_list_id = settings.get('mailchimp_list_id')
+    mailchimp_api = os.environ.get('MAILCHIMP_API_KEY', '')
+    mailchimp_list_id = os.environ.get('MAILCHIMP_LIST_ID', '')
 
     MailingListService.global_init(mailchimp_api, mailchimp_list_id)
 
